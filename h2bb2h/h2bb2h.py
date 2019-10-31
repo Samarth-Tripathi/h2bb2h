@@ -57,6 +57,7 @@ def bytes2human(n, format='%(value).1f %(symbol)s', symbols='customary'):
     prefix = {}
     for i, s in enumerate(symbols[1:]):
         prefix[s] = 1 << (i+1)*10
+    print("testing 456")
     for symbol in reversed(symbols[1:]):
         if n >= prefix[symbol]:
             value = float(n) / prefix[symbol]
