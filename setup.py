@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
      name='h2bb2h',
-     version='0.1',
+     version='0.2',
      packages = find_packages(),
      author="Samarth Tripathi",
      author_email="samarthtripathi@gmail.com",
