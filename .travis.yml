@@ -6,6 +6,5 @@ script:
 deploy:
   provider: pypi
   user: "__token__"
-  password:
-  secure: "Rgt8Q+5E4wFz6KF9nKtr3dpn4XSG+69G1FXfePNQy6FHgOfjbbi9qG2oES9W9BQD4FjRxn6Lj3ZIqnOkVfNdnILpDkOsfR6KMK1lWppMebPBrHJtoEz4DcXtNkydxU/R4T2Pu1tg5j7/7GNqIopoUC8W7llj5/slzaFHb9vJNpede8Nrgi0Cowu/EADRVD9jKMWfuLTwYYfK2Oh1U8uk0vKpRC9hvgYqnCaeDrTT+qdCOSqp0IkGaJYG3vGUqF7FCzzqDH6AhVO9j2kTvn2CJ3t/z7eyOKUOHcPef3xOcag1t5z6/z9VpIHQgKkV0FB6GnPTTXZEnxCDUBWJCPMWn+T6nqE3PdCIR0kgZWZCcJFxTlbSimlON+OvWIXzC2KDDqNzu/vquyz2UDQiaJrzAAC+8dFRGdIvd1BAneNDTPoEHPmcDd5Z2NNK5kr7SO5yxmQpBTpHV20kQDoYwuyh6yLXGWFA7T4bT83a7SSZnmdBEeDCy+PprSpsYZP2Bx+31v3pUrpJ3+0YZGCp5kWxX4crNuXHVTAIE8FapXukJ4yPXwsyFFUjms/32MtI7tb1ToVJImasZl/eB0oN78NPdqlC9/+FWzAyDr3bOwptBo+e+kg9AQg5gGSscB5wofYJO7h+2MS0NY8aDV8rqRKtlBN5IMNBcv9zmbkl/PD7nr8="  on:
+  password: $ran
     branch: master
