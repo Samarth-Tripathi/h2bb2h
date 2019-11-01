@@ -7,4 +7,5 @@ deploy:
   provider: pypi
   user: "__token__"
   password: $ran
+  on:
     branch: master
